@@ -1,19 +1,22 @@
 /* This is how you write a comment becuause you forgot */
 /*color pallet*/
-/*color: #86c232; light green */
+/*color: #86c232; dark green */
 /*color: #222629; dark dark grey*/
-/*color: #61892f; dark green*/
+/*color: #61892f; light green*/
 /*color: #474b4f; dark grey*/
-/*color: 6b6e70; light grey*/
+/*color: #6b6e70; light grey*/
 body{
   background-color: #222629;
   background-image: url("bg.png");
   /*controlls font color for whole document*/
   color: white;
+  font-family: "Arial", Arial, sans-serif;
+}
+header{
+  margin: 8px;
 }
 /*navbar stuff*/
 nav{
-  height: 40px;
   width:100%;
   background-color: #61892f;
 }
@@ -29,7 +32,19 @@ nav li{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+nav li:hover{
+  color: white;
+  background-color: #86c232;
+}
 /*navbar stuff*/
+main{
+  margin: 8px;
+  padding: 4px 18px 4px 18px;
+  background-color: #474b4f;
+}
+footer{
+  margin: 8px;
 }
 /*many Hs Below*/
 h1{
