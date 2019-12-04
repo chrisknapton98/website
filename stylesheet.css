@@ -1,0 +1,43 @@
+nav {
+  background-color: #e7c351;
+  padding: 14px 16px;
+  font-size: 17;
+  border: 3px solid #ec7062;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  padding: 5px;
+
+}
+nav li:hover{
+  color: #ec7062;
+}
+header{
+  padding: 5px 7px;
+}
+main {
+  background-color: #6eb67e;
+  border: 3px solid #ec7062;
+}
+main p {
+  padding: 5px 7px;
+  margin: 8px 16px;
+}
+footer {
+  background-color: #6eb67e;
+  padding: 5px 7px;
+}
+footer h3{
+  margin: 8px 18px;
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #508d64;
+  background-image: url("bg.png")
+}
+/*this is how you write comments is CSS becuase you forgot how */
