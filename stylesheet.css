@@ -28,6 +28,12 @@ a:active{
 a:visited{
   color: inherit;
 }
+p a:link{
+  color: #86c232;
+}
+p a:visited{
+  color: #86c232;
+}
 /*aaaaaaaaa*/
 header{
   margin: 8px;
