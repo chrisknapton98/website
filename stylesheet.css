@@ -12,6 +12,12 @@ body{
   color: white;
   font-family: "Arial", Arial, sans-serif;
 }
+a{
+  text-decoration: none;
+}
+p a{
+  color: #86c232;
+}
 header{
   margin: 8px;
 }
@@ -37,6 +43,9 @@ nav li:hover{
   color: white;
   background-color: #86c232;
 }
+nav a:visited{
+  color: inherit;
+}
 /*navbar stuff*/
 main{
   margin: 8px;
@@ -45,6 +54,8 @@ main{
 }
 footer{
   margin: 8px;
+}footer a:visited{
+  color: #61892f;
 }
 /*many Hs Below*/
 h1{
