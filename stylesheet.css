@@ -12,12 +12,23 @@ body{
   color: white;
   font-family: "Arial", Arial, sans-serif;
 }
+/*many a*/
 a{
   text-decoration: none;
 }
-p a{
-  color: #86c232;
+a:link{
+  color: inherit;
 }
+a:hover{
+
+}
+a:active{
+
+}
+a:visited{
+  color: inherit;
+}
+/*aaaaaaaaa*/
 header{
   margin: 8px;
 }
@@ -54,8 +65,6 @@ main{
 }
 footer{
   margin: 8px;
-}footer a:visited{
-  color: #61892f;
 }
 /*many Hs Below*/
 h1{
