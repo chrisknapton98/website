@@ -10,7 +10,7 @@ body{
   background-image: url("bg.png");
   /*controlls font color for whole document*/
   color: white;
-  font-family: "Arial", Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 /*many a*/
 a{
