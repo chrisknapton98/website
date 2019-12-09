@@ -6,6 +6,9 @@
 /*color: #474b4f; dark grey*/
 /*color: #6b6e70; light grey*/
 body{
+  margin-right: auto;
+  margin-left:auto;
+  max-width: 1060px;
   background-color: #222629;
   background-image: url("bg.png");
   /*controlls font color for whole document*/
@@ -68,6 +71,9 @@ main{
   margin: 8px;
   padding: 4px 18px 4px 18px;
   background-color: #474b4f;
+}
+aside{
+  
 }
 footer{
   margin: 8px;
