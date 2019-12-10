@@ -28,6 +28,7 @@ main{
   content: "";
   display: table;
   clear: both;
+/* this keeps everything together. not sure how tho */
 }
 .article,
 .section
