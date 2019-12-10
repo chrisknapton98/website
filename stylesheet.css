@@ -10,7 +10,8 @@
 }
 body{
   margin-right: auto;
-  margin-left:auto;
+  margin-left: auto;
+  min-width: 760px;
   max-width: 1060px;
   background-color: #222629;
   background-image: url("bg.png");
