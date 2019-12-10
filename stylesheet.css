@@ -37,33 +37,33 @@ p a:visited{
   color: #86c232;
 }
 /*aaaaaaaaa*/
-header{
+.header{
   margin: 8px;
   text-align: left;
 }
 /*navbar stuff*/
-nav{
+.navbar{
   width:100%;
   background-color: #61892f;
   font-weight: 500;
 }
-nav ul{
+.navbar ul{
   list-style-type: none;
   overflow: hidden;
   margin: 0px;
   padding: 0px;
 }
-nav li{
+.navbar li{
   float: left;
   display: block;
   padding: 14px 16px;
   text-decoration: none;
 }
-nav li:hover{
+.navbar li:hover{
   color: white;
   background-color: #86c232;
 }
-nav a:visited{
+.navbar a:visited{
   color: inherit;
 }
 /*navbar stuff*/
@@ -72,7 +72,7 @@ main{
   padding: 4px 18px 4px 18px;
   background-color: #474b4f;
 }
-footer{
+.footer{
   margin: 8px;
 }
 /*many Hs Below*/
