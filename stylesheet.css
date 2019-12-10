@@ -5,6 +5,9 @@
 /*color: #61892f; light green*/
 /*color: #474b4f; dark grey*/
 /*color: #6b6e70; light grey*/
+* {
+  box-sizing: border-box;
+}
 body{
   margin-right: auto;
   margin-left:auto;
@@ -17,10 +20,27 @@ body{
 }
 main{
   margin: 8px;
-  padding: 4px 18px 4px 18px;
+  padding: 4px 18px 18px 18px;
   background-color: #474b4f;
 }
+.main:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.article,
+.section
+{
+  float: left;
+  width: 70%;
+
+}
+.sidebar{
+  float: right;
+  width: 30%;
+}
 .footer{
+  float: bottom;
   margin: 8px;
   line-height: 0.5;
 }
