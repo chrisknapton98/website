@@ -15,6 +15,15 @@ body{
   color: white;
   font-family: 'Roboto', sans-serif;
 }
+main{
+  margin: 8px;
+  padding: 4px 18px 4px 18px;
+  background-color: #474b4f;
+}
+.footer{
+  margin: 8px;
+  line-height: 0.5;
+}
 /*many a*/
 a{
   text-decoration: none;
@@ -67,14 +76,6 @@ p a:visited{
   color: inherit;
 }
 /*navbar stuff*/
-main{
-  margin: 8px;
-  padding: 4px 18px 4px 18px;
-  background-color: #474b4f;
-}
-.footer{
-  margin: 8px;
-}
 /*many Hs Below*/
 h1,h2,h3,h4,h5,h6{
   color: #86c232;
