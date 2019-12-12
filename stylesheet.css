@@ -28,6 +28,8 @@ main{
 }
 img{
   width: justify;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 .main:after{
   content: "";
