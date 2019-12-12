@@ -15,7 +15,7 @@ body{
   min-width: 760px;
   max-width: 1260px;
   background-color: #222629;
-  background-image: url("bg.png");
+  background-image: url("bg1.png");
   /*controlls font color for whole document*/
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -24,6 +24,7 @@ main{
   margin: 8px;
   padding: 4px 18px 18px 18px;
   background-color: #474b4f;
+  background-image: url("bg2.png");
 }
 img{
   width: justify;
@@ -49,6 +50,13 @@ img{
   float: bottom;
   margin: 8px;
   line-height: 0.5;
+}
+.banner{
+  height: 120px;
+  background-image: url("bg3.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 /*many a*/
 a{
@@ -111,5 +119,8 @@ h1,h2,h3,h4,h5,h6{
   font-size: 48px;
   text-decoration: underline;
   font-family: 'Russo One', sans-serif;
+  position: absolute;
+  top: 15px;
+  left: 20px;
 }
 /*the H era is over*/
